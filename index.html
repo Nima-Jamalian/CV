@@ -1,114 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nima's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
+<!--
+    common inline elements
+    <span>
+    <img>
+    <a> ->anchor (link website)
+-->
 <body>
-    <table cellspacing = "20">
-        <tr>
-            <td><img src="Images/Nima Profile Pciture.png"   width="200" height="200" alt="Nima Profile Picture"></td>
-            <td><h1>Nima Jamalian</h1>
-                <p><em>PhD researcher in <strong>Computer Science</strong></em></p>
-                <p>I am a Unity developer, experinced in VR and AR development.</p></td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li><strong>PhD in Computer Sceince</strong> , from <a href="https://www.gold.ac.uk/computing/">Goldsmiths University of London</a>  (Since 2019)</li>
-        <li><strong>Master's in Computer Games Art & Design</strong> , from <a href="https://www.gold.ac.uk/computing/">Goldsmiths University of London</a>  (2018 - 2019)</li>
-        <li><strong>BSc (Hons) in Games Programming</strong> , from <a href="https://www.gold.ac.uk/computing/">Goldsmiths University of London</a>  (2014 - 2017)</li>
-    </ul>
-    <hr>
-    <h3>Work Experinced</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th> Work</th>
-                <th> Compony</th>
-                <th> Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>AR/VR Specialist</td>
-                <td>South Bank Innovation</td>
-                <td>April 2021 - Present</td>
-            </tr>
-            <tr>
-                <td>Online Tutor for BSc Computer Science Degree</td>
-                <td>University of London (Coursera)</td>
-                <td>April 2021 - Present</td>
-            </tr>
-            <tr>
-                <td>Data Visualiaztion Intern</td>
-                <td>Nokia Bell Lbas</td>
-                <td>June 2020 - August 2020</td>
-            </tr>
-            <tr>
-                <td>Lecterur Assistant</td>
-                <td>Goldsmiths University of London</td>
-                <td>Spetember 2019 - Present</td>
-            </tr>
-        </tbody>
-        <tfoot>       
-        </tfoot>
-    </table>
-    <h3><a href="courses.html">My Courses</a></h3> 
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing = "10">
-        <tr>
-            <td>
-                <table cellspacing = "5">
-                    <tr>
-                        <td>Unity Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Unreal Engine Development</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing = "5">
-                    <tr>
-                        <td>XR Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
+    <!--
+        <div>
+        div: stand for content division element
+        doesn't do anything without css, it used for dividing your html element into section 
+    -->
+    <div class = "topContainer">
+        <img class= "top-cloud" src="images/cloud.png" alt="could-image">
+        <h1>I'm Nima.</h1>
+        <!--
+            <span>
+            used for selecting a specific part of the text and add style to it
+            span is an inline elements meaning it does not block the whole space
+            span can also be use as it's own when you want to have inline elements
+        -->
+        <h2 class="subtitle">a <span class="softwareEngineer">software engineer</span>.</h2>
+        <img class= "button-cloud" src="images/cloud.png" alt="could-image">
+        <img src="images/mountain.png" alt="mountain-image">
+    </div>
 
-                    </tr>
-                    <tr>
-                        <td>Mathematics</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>UI & UX Design</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-<hr>
-    <h3>My Hobbies</h3>
-    <ol>
-        <li><a href="https://www.nima-jamalian.com/tutorials"> Learning more about computers and teach</a></li>
-        <li><a href="https://www.nima-jamalian.com/projects">Game development</a> </li>
-        <li>Working out</li>
-        <li>Cars</li>
-    </ol>
-    <h3><a href="contact-me.html">Contact Me</a></h3>
+    <div class="middle-container">
+        <div class="profile">
+          <img id="profilePic" src="images/Nima Profile Pciture.png" alt="NimaProfilePicture">
+          <h2>Hello.</h2>
+          <p class="intro">I am a PhD researcher in Computer Science 💻 (VR and AR) at The Goldsmiths University of London. Unity Developer and Web Developer.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills 💻</h2>
+          <div class="skill-row">
+            <img id="unityPic" src="images/UnityLogo.png" alt="UnityLogo">
+            <h3>Unity Development</h3>
+            <p class = "unity-skill-description">I started learning to code because I wanted to make my own video games 🎮. Over time, I have gained a wealth of experience in developing and designing my own mobile, web and VR application. During my PhD, I become interested in VR and AR and got experienced in XR development.</p>
+          </div>
+          <div class="skill-row">
+            <img id="webDevPic" src="images/webDev.gif" alt="webDev">
+            <h3>Web Development</h3>
+            <p class = "web-development-description">The ease of access to the website for users always fascinated me no need to install an application just a web address and you are good to go. I started learning more about the web 🌐 and how the internet works and lead to me become interested in web development. Over the years I gained experience in designing and developing websites using HTML, CSS and JavaScript.</p>
+          </div>
+        </div>
+        <hr>
+        <div class = "education">
+            <h2>My Education 🎓</h2>
+            <p>PhD in Computer Science (from Goldsmiths University of London), Since 2019 - Expected Graduation September 2021</p>
+            <p>Master's in Computer Games Art & Design (from Goldsmiths University of London), 2018−2019 Graduated with Distinction</p>
+            <p>BSc (Hons) in Games Programming (from Goldsmiths University of London), 2014−2017</p>
+        </div>
+        <hr>
+        <div class = "experience">
+            <h2>My Experience 💼</h2>
+            <p>AR/VR Specialist - South Bank Innovation - Apr 2021 - Present </p>
+            <p>Online Tutor Coursera - University of London - Apr 2021 - Present</p>
+            <p>Data Science Research Intern - Nokia Bell Labs - Jun 2020 - Aug 2020</p>
+            <p>Lecturer Assistant - Goldsmiths, University of London - Sep 2019 - Present</p>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch 🖐</h2>
+          <h3>If you are into tech as much as I do.</h3>
+          <p class="contact-message">Love tech as much as I do? Let's talk about how awesome tech is! We can code and make cool stuff.</p>
+          <a href="mailto:nima.jamalian@me.com" class="BUTTON_TLB">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/nima-jamalian/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/nimajamalian">Twitter</a>
+        <a class="footer-link" href="https://www.instagram.com/nima_jamalian/">Instagram</a>
+        <p class = "copyright">© 2021 Nima Jamalian.</p>
+      </div>
 </body>
-
 </html>
