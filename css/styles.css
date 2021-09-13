@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+/*
+    If you want the text to be dynamic and change based on the user browser settings
+    we should use percentage. 100% = 16px
+    font-size: 100% ----> 16px
+
+    or you can use em
+    1 em = 16px
+    font-size: 1em; ----> 16px
+
+    note using this method we are inheriting the setting from body
+    for example if we set the body font-size: 200%
+
+    and then set the h1 also font-size: 200% the the h1 actual font size would be 400%
+    cause it is inheriting the original size form body
+
+    to prevent this we can use rem which work just like em but we don't inherit from body
+    the r stand for root
+*/
+h1{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+ 
+}
+
+/*
+setting line height from top and button, you only input the number no need for px or %
+   line-height: 2;
+*/
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:#EAF6F6;
+    border-width: 10px;
+    width: 20%;
+    margin: 5% auto 5% auto;
+}
+
+
+#profilePic{
+ width: 200px;
+ height: 200px;
+}
+
+.intro{
+width: 30%;
+margin: auto;
+}
+
+#unityPic{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+/*
+.unity-skill-description{
+  width: 100%;
+  margin: auto 200px auto 200px;
+}*/
+
+#webDevPic{
+    width: 200px;
+    height: 200px;
+    /*width: 25%;*/
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/*
+.web-development-description{
+    padding-right: 30%;
+}*/
+
+
+
+.middle-container{
+    margin:50px 0;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 3.75rem auto 3.125rem auto;
+    text-align: left;
+
+}
+
+.topContainer{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.bottom-container{
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    color:#11999E ;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+.softwareEngineer{
+text-decoration: underline;
+}
+
+.subtitle{
+    font-weight: normal;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.button-cloud {
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: auto;
+}
+
+.BUTTON_TLB {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    width: 133px;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 24px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 40px auto auto auto;
+ }
+ 
+ .BUTTON_TLB:hover {
+    background: #5DABAB;
+    border: solid #66BFBF 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
