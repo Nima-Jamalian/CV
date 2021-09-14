@@ -202,6 +202,36 @@ hr {
     padding-right: 30%;
 }*/
 
+.myLanguages{
+    
+}
+.languagesCharpJava{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.languagesHTMLCSSJavaScript{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.languagesPython{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 40px;
+}
+.languagesIcon{
+    width: 10%;
+    padding: 0 10px;
+}
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
 .bottom-container {
   padding-top: 3%;
   padding-bottom: 0.5%;
@@ -209,10 +239,6 @@ hr {
   background-color: #141e61;
 }
 
-.contact-message {
-  width: 40%;
-  margin: auto;
-}
 
 .BUTTON_TLB {
   -webkit-border-radius: 20px;
