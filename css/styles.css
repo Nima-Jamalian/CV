@@ -4,6 +4,7 @@ body {
   font-family: "Merriweather", serif;
   color: #40514e;
 }
+
 /*
     If you want the text to be dynamic and change based on the user browser settings
     we should use percentage. 100% = 16px
