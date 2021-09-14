@@ -1,8 +1,8 @@
-body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
 }
 /*
     If you want the text to be dynamic and change based on the user browser settings
@@ -22,72 +22,101 @@ body{
     to prevent this we can use rem which work just like em but we don't inherit from body
     the r stand for root
 */
-h1{
-    width: 30%;
-    margin: 0 auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color: #66BFBF;
- 
+h1 {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
 
 /*
 setting line height from top and button, you only input the number no need for px or %
    line-height: 2;
 */
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #66BFBF;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
 }
 
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
-p{
-    line-height: 2;
+p {
+  line-height: 2;
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color:#EAF6F6;
-    border-width: 10px;
-    width: 20%;
-    margin: 5% auto 5% auto;
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 10px;
+  width: 20%;
+  margin: 5% auto 5% auto;
 }
 
-.top-cloud{
-    position:absolute;
-    width: 4%;
-    right: 22%;
-    top: 5%;
+.topContainer {
+  /*background-color: #EAF6F6;*/
+  background-color: #0f044c;
+  position: relative;
+  padding-top: 100px;
 }
 
-.button-cloud {
-    position:absolute;
-    width: 5%;
-    left: 18%;
-    bottom: 45%;
+.top-comment-image {
+  position: absolute;
+  width: 4%;
+  right: 22%;
+  top: 5%;
 }
 
-#profilePic{
- width: 200px;
- height: 200px;
+.button-comment-image {
+  position: absolute;
+  width: 5%;
+  left: 18%;
+  bottom: 45%;
 }
 
-.intro{
-width: 30%;
-margin: auto;
+.subtitle {
+  font-weight: normal;
 }
 
-#unityPic{
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 30px;
+.softwareEngineer {
+  text-decoration: underline;
+}
+
+.introImage {
+  width: 24%;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+#profilePic {
+  width: 200px;
+  height: 200px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 3.75rem auto 3.125rem auto;
+  text-align: left;
+}
+
+#unityPic {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 50px;
 }
 
 /*
@@ -96,13 +125,76 @@ margin: auto;
   margin: auto 200px auto 200px;
 }*/
 
-#webDevPic{
-    width: 200px;
-    height: 200px;
-    /*width: 25%;*/
-    float: right;
-    margin-left: 30px;
-    border-radius: 50%;
+#WebDevTitle{
+    padding-top: 100px;
+}
+
+#webDevPic {
+  width: 200px;
+  height: 200px;
+  /*width: 25%;*/
+  float: right;
+  margin-top: 110px;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+.southBankLogo{
+    display: block;
+    width: 6%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.southBankLogo:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.UoLLogo{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 15%;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    transition: all .2s ease-in-out;
+
+}
+
+.UoLLogo:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.NokiaLogo{
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 20%;
+    transition: all .2s ease-in-out;
+
+}
+
+.NokiaLogo:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.GoldsmithsLogo{
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    filter: invert(1);
+    width: 20%;
+    transition: all .2s ease-in-out;
+
+}
+
+.GoldsmithsLogo:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 /*
@@ -110,112 +202,80 @@ margin: auto;
     padding-right: 30%;
 }*/
 
-
-
-.middle-container{
-    margin:50px 0;
+.bottom-container {
+  padding-top: 3%;
+  padding-bottom: 0.5%;
+  /*background-color: #66BFBF;*/
+  background-color: #141e61;
 }
 
-.skill-row{
-    width: 50%;
-    margin: 3.75rem auto 3.125rem auto;
-    text-align: left;
-
-}
-
-.topContainer{
-    /*background-color: #EAF6F6;*/
-    background-color: #0F044C;
-    position: relative;
-    padding-top: 100px;
-}
-.bottom-container{
-    padding-top: 3%;
-    padding-bottom: 0.5%;
-    /*background-color: #66BFBF;*/
-    background-color: #141E61;
-}
-
-.footer-link{
-    color:#11999E ;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-
-.footer-link:hover{
-    color: #EAF6F6;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.footer-link-credit{
-    color:#11999E ;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.70rem;
-    text-decoration: none;
-}
-.footer-link-credit:hover{
-    color: #EAF6F6;
-    font-family: 'Montserrat', sans-serif;
-}
-.copyright{
-    color:#EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0px;
-}
-
-.credit{
-    color:#EAF6F6;
-    font-size: 0.75rem;
-    font-family: 'Montserrat', sans-serif;
-}
-.softwareEngineer{
-text-decoration: underline;
-}
-
-.subtitle{
-    font-weight: normal;
-}
-
-
-
-.introImage{
-    width: 24%;
-}
-
-.contact-message{
-    width: 40%;
-    margin: auto;
+.contact-message {
+  width: 40%;
+  margin: auto;
 }
 
 .BUTTON_TLB {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    height: 0;
-    line-height: 0;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    width: 133px;
-    font-size: 19px;
-    font-weight: 300;
-    padding: 24px;
-    /*background-color: #66BFBF;*/
-    background-color: #141E61;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin: 40px auto auto auto;
- }
- 
- .BUTTON_TLB:hover {
-    /*background: #5DABAB;*/
-    background-color: #0F044C;
-    border: none;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  width: 133px;
+  font-size: 19px;
+  font-weight: 300;
+  padding: 24px;
+  /*background-color: #66BFBF;*/
+  background-color: #141e61;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px auto auto auto;
+  transition: all .2s ease-in-out;
+}
 
+.BUTTON_TLB:hover {
+  /*background: #5DABAB;*/
+  background-color: #0f044c;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-link-credit {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+.footer-link-credit:hover {
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.credit {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
