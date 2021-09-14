@@ -125,8 +125,8 @@ hr {
   margin: auto 200px auto 200px;
 }*/
 
-#WebDevTitle{
-    padding-top: 100px;
+#WebDevTitle {
+  padding-top: 100px;
 }
 
 #webDevPic {
@@ -138,63 +138,60 @@ hr {
   margin-left: 30px;
   padding-bottom: 50px;
 }
-.southBankLogo{
-    display: block;
-    width: 6%;
-    margin: 0 auto 0 auto;
-    padding-bottom: 10px;
-    transition: all .2s ease-in-out;
+.southBankLogo {
+  display: block;
+  width: 6%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
-.southBankLogo:hover{
-    transform: scale(1.1);
-    opacity: 0.5;
+.southBankLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
-.UoLLogo{
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 15%;
-    padding-bottom: 1px;
-    padding-top: 10px;
-    transition: all .2s ease-in-out;
-
+.UoLLogo {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 15%;
+  padding-bottom: 1px;
+  padding-top: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
-.UoLLogo:hover{
-    transform: scale(1.1);
-    opacity: 0.5;
+.UoLLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
-.NokiaLogo{
-    display: block;
-    margin: 0 auto 0 auto;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    width: 20%;
-    transition: all .2s ease-in-out;
-
+.NokiaLogo {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width: 20%;
+  transition: all 0.2s ease-in-out;
 }
 
-.NokiaLogo:hover{
-    transform: scale(1.1);
-    opacity: 0.5;
+.NokiaLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
-.GoldsmithsLogo{
-    display: block;
-    margin: 0 auto 0 auto;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    filter: invert(1);
-    width: 20%;
-    transition: all .2s ease-in-out;
-
+.GoldsmithsLogo {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  filter: invert(1);
+  width: 20%;
+  transition: all 0.2s ease-in-out;
 }
 
-.GoldsmithsLogo:hover{
-    transform: scale(1.1);
-    opacity: 0.5;
+.GoldsmithsLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
 /*
@@ -233,7 +230,7 @@ hr {
   cursor: pointer;
   text-align: center;
   margin: 40px auto auto auto;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .BUTTON_TLB:hover {
@@ -258,6 +255,15 @@ hr {
   font-family: "Montserrat", sans-serif;
 }
 
+.footer-Icon {
+  width: 4rem;
+  margin: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+.footer-Icon:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
 .footer-link-credit {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
