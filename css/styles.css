@@ -59,6 +59,19 @@ hr{
     margin: 5% auto 5% auto;
 }
 
+.top-cloud{
+    position:absolute;
+    width: 4%;
+    right: 20%;
+    top: 5%;
+}
+
+.button-cloud {
+    position:absolute;
+    width: 5%;
+    left: 15%;
+    bottom: 42%;
+}
 
 #profilePic{
  width: 200px;
@@ -164,19 +177,7 @@ text-decoration: underline;
     font-weight: normal;
 }
 
-.top-cloud{
-    position:absolute;
-    width: 4%;
-    right: 300px;
-    top: 40px;
-}
 
-.button-cloud {
-    position:absolute;
-    width: 5%;
-    left: 250px;
-    bottom: 300px;
-}
 
 .introImage{
     width: 24%;
