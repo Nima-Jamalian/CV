@@ -175,6 +175,8 @@ hr {
   padding-bottom: 10px;
   padding-top: 20px;
   width: 20%;
+ /* min-width: 10%;
+  max-width: 20%;*/
   transition: all 0.2s ease-in-out;
 }
 
@@ -209,19 +211,19 @@ hr {
 .languagesCharpJava{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
 }
 
 .languagesHTMLCSSJavaScript{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
 }
 
 .languagesPython{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
     padding: 40px;
 }
 .languagesIcon{
