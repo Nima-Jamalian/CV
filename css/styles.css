@@ -142,8 +142,11 @@ hr {
   margin-left: 30px;
   padding-bottom: 50px;
 }
-.southBankLogo {
+
+.blockDiv{
   display: block;
+}
+.southBankLogo {
   width: 6%;
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
@@ -155,8 +158,8 @@ hr {
   opacity: 0.5;
 }
 
+
 .UoLLogo {
-  display: block;
   margin: 0 auto 0 auto;
   width: 15%;
   padding-bottom: 1px;
@@ -170,7 +173,6 @@ hr {
 }
 
 .NokiaLogo {
-  display: block;
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
   padding-top: 20px;
@@ -186,7 +188,6 @@ hr {
 }
 
 .GoldsmithsLogo {
-  display: block;
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
   padding-top: 20px;
@@ -198,6 +199,24 @@ hr {
 .GoldsmithsLogo:hover {
   transform: scale(1.1);
   opacity: 0.5;
+}
+
+@media (max-width: 1117px) {
+  .southBankLogo {
+    width: 4rem;
+  }
+
+  .UoLLogo{
+    width: 10rem;
+  }
+
+  .NokiaLogo {
+    width: 12rem;
+  }
+
+  .GoldsmithsLogo {
+    width: 12rem;
+  }
 }
 
 /*
