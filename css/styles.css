@@ -295,6 +295,47 @@ hr {
   text-decoration: none;
   transform: scale(1.1);
 }
+
+/* MY Tutorial Section  */
+.tutorialList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gitLink{
+/* background-color: red; */
+padding-right: 10px;
+
+}
+.gitLogo{
+  width: 100%;
+  height: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.gitLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+
+@media (max-width: 1117px) {
+  .tutorialList{
+    display:block;
+  }
+  .gitLink{
+    width: 20%;
+    /* background-color: red; */
+    padding-right: 10px;
+    }
+    .gitLogo{
+      width: 20%;
+      height: 100px;
+      transition: all 0.2s ease-in-out;
+    }
+}
+
+
+/* Footer Section */
 .footer-link {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
