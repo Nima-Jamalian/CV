@@ -146,6 +146,7 @@ hr {
 .blockDiv{
   display: block;
 }
+
 .southBankLogo {
   width: 6%;
   margin: 0 auto 0 auto;
@@ -218,6 +219,8 @@ hr {
     width: 12rem;
   }
 }
+
+
 
 /*
 .web-development-description{
@@ -314,23 +317,81 @@ padding-right: 10px;
   opacity: 0.5;
 }
 
+.lightLogoImage {
+  /* position: absolute; */
+  width: 7rem;
+  transition: transform 0.3s ease;
+  transform: translateY(0px);
+  z-index: 0;
+}
+
+
+.logoShadowBegining{
+  position: absolute;
+  animation: fadeOutAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  box-shadow: -55px 30px 30px 30px  yellow;
+  z-index: 1;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 0.9;
+  }
+  100% {
+      opacity: 0.4;
+   }
+}
+
+.lightLogoImage:hover{
+  transform: translateY(-5px);
+}
+
+/* 10 */
+.lightLogoImage:hover ~ .logoShadow{
+  position: absolute;
+  box-shadow: -55px 10px 30px 30px  yellow;
+  opacity: 0.5;
+  z-index: 1;
+}
+
 
 @media (max-width: 1117px) {
-  .tutorialList{
+  .itemList{
     display:block;
+    width: 80%;
+    margin: auto;
   }
-  .gitLink{
+  .imageLink{
     width: 20%;
-    /* background-color: red; */
     padding-right: 10px;
     }
-    .gitLogo{
+    .logoImage{
       width: 20%;
       height: 100px;
       transition: all 0.2s ease-in-out;
     }
 }
 
+
+@media (max-width: 1117px) {
+  .intro {
+    width: 80%;
+    margin: auto;
+  }
+  .skill-row {
+    width: 80%;
+  }
+  .education{
+    width: 80%;
+    margin: auto;
+  }
+  .experience{
+    width: 80%;
+    margin: auto;
+  }
+}
 
 /* Footer Section */
 .footer-link {
