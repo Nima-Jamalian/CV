@@ -224,9 +224,6 @@ hr {
     padding-right: 30%;
 }*/
 
-.myLanguages{
-    
-}
 .languagesCharpJava{
     display: block;
     margin: auto;
@@ -297,22 +294,22 @@ hr {
 }
 
 /* MY Tutorial Section  */
-.tutorialList{
+.itemList{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.gitLink{
+.imageLink{
 /* background-color: red; */
 padding-right: 10px;
 
 }
-.gitLogo{
+.logoImage{
   width: 100%;
   height: 100px;
   transition: all 0.2s ease-in-out;
 }
-.gitLogo:hover {
+.logoImage:hover {
   transform: scale(1.1);
   opacity: 0.5;
 }
