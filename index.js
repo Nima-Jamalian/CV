@@ -21,3 +21,15 @@ if(NokiaList.classList.contains("hideItem")){
     NokiaTitle.classList.remove("boldText");
 }
 });
+
+document.querySelector(".UoLLogo").addEventListener("click", () =>{
+    var UoLTitle = document.querySelector(".UoLTitle");
+    var UoLList = document.querySelector(".UoLList");
+if(UoLList.classList.contains("hideItem")){
+    UoLList.classList.remove("hideItem");
+    UoLTitle.classList.add("boldText");
+} else{
+    UoLList.classList.add("hideItem");
+    UoLTitle.classList.remove("boldText");
+}
+});
