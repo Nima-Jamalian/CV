@@ -45,3 +45,39 @@ if(GoldsmithsList.classList.contains("hideItem")){
     GoldsmithsTitle.classList.remove("boldText");
 }
 });
+
+document.querySelector(".PhDLogo").addEventListener("click", () =>{
+    var PhDTitle = document.querySelector(".PhDTitle");
+    var PhDList = document.querySelector(".PhDList");
+if(PhDList.classList.contains("hideItem")){
+    PhDList.classList.remove("hideItem");
+    PhDTitle.classList.add("boldText");
+} else{
+    PhDList.classList.add("hideItem");
+    PhDTitle.classList.remove("boldText");
+}
+});
+
+document.querySelector(".MasterLogo").addEventListener("click", () =>{
+    var MasterTitle = document.querySelector(".MasterTitle");
+    var MasterList = document.querySelector(".MasterList");
+if(MasterList.classList.contains("hideItem")){
+    MasterList.classList.remove("hideItem");
+    MasterTitle.classList.add("boldText");
+} else{
+    MasterList.classList.add("hideItem");
+    MasterTitle.classList.remove("boldText");
+}
+});
+
+document.querySelector(".BachelorLogo").addEventListener("click", () =>{
+    var BachelorTitle = document.querySelector(".BachelorTitle");
+    var BachelorList = document.querySelector(".BachelorList");
+if(BachelorList.classList.contains("hideItem")){
+    BachelorList.classList.remove("hideItem");
+    BachelorTitle.classList.add("boldText");
+} else{
+    BachelorList.classList.add("hideItem");
+    BachelorTitle.classList.remove("boldText");
+}
+});

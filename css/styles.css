@@ -142,8 +142,26 @@ hr {
   margin-left: 30px;
   padding-bottom: 50px;
 }
+/* My Education Section */
+.StudyLogo{
+  width: 10%;
+  transition: all 0.2s ease-in-out;
+}
 
-/* Experince Section */
+.StudyLogo:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.SEEVRLab{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.BachelorLogo{
+  padding-right: 20px;
+}
+/* Experience Section */
 .blockDiv{
   display: block;
 }
@@ -258,23 +276,23 @@ hr {
 .languagesCharpJava{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
 }
 
 .languagesHTMLCSSJavaScript{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
 }
 
 .languagesPython{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
     padding: 40px;
 }
 .languagesIcon{
-    width: 10%;
+    width: 6%;
     padding: 0 10px;
 }
 
