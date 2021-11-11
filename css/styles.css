@@ -143,10 +143,38 @@ hr {
   padding-bottom: 50px;
 }
 
+/* Experince Section */
 .blockDiv{
   display: block;
 }
 
+.hideItem{
+  display: none;
+}
+
+
+.experienceList{
+  width: 50%;
+  margin: auto;
+  list-style-type: none;
+}
+
+.experinceListItem{
+  padding-top: 10px;
+}
+.fa-circle{
+  position: relative;
+  font-size: 50%;
+  top: -3px;
+}
+.southBankTitle{
+  padding: 0;
+  margin: 0;
+}
+
+.boldText{
+  font-weight: bold;
+}
 .southBankLogo {
   width: 6%;
   margin: 0 auto 0 auto;
