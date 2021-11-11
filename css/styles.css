@@ -329,11 +329,16 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding:10px 0px;
 }
 .imageLink{
 /* background-color: red; */
 padding-right: 10px;
+}
 
+.simonGame{
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 .logoImage{
   width: 100%;
