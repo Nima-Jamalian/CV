@@ -102,8 +102,11 @@ hr {
 #profilePic {
   width: 200px;
   height: 200px;
+  transition: all 0.2s ease-in-out;
 }
-
+#profilePic:hover{
+  transform: scale(1.1);
+}
 .intro {
   width: 30%;
   margin: auto;

@@ -1,3 +1,10 @@
+document.querySelector("#profilePic").addEventListener("mouseenter",()=>{
+    document.querySelector("#profilePic").src = "images/NimaEmojiPhotoRound.png";
+});
+document.querySelector("#profilePic").addEventListener("mouseleave",()=>{
+    document.querySelector("#profilePic").src = "images/Nima Profile Pciture.png";
+});
+
 document.querySelector(".southBankLogo").addEventListener("click", () =>{
     var southBankTitle = document.querySelector(".southBankTitle");
     var southBankList = document.querySelector(".southBankList");
