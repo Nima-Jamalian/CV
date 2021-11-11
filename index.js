@@ -33,3 +33,15 @@ if(UoLList.classList.contains("hideItem")){
     UoLTitle.classList.remove("boldText");
 }
 });
+
+document.querySelector(".GoldsmithsLogo").addEventListener("click", () =>{
+    var GoldsmithsTitle = document.querySelector(".GoldsmithsTitle");
+    var GoldsmithsList = document.querySelector(".GoldsmithsList");
+if(GoldsmithsList.classList.contains("hideItem")){
+    GoldsmithsList.classList.remove("hideItem");
+    GoldsmithsTitle.classList.add("boldText");
+} else{
+    GoldsmithsList.classList.add("hideItem");
+    GoldsmithsTitle.classList.remove("boldText");
+}
+});
