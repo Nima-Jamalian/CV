@@ -107,6 +107,7 @@ hr {
 #profilePic:hover{
   transform: scale(1.1);
 }
+
 .intro {
   width: 30%;
   margin: auto;
@@ -410,7 +411,7 @@ padding-right: 10px;
   z-index: 1;
 }
 
-
+/* Mobile Size Optimization */
 @media (max-width: 1117px) {
   .itemList{
     display:block;
@@ -420,32 +421,54 @@ padding-right: 10px;
   .imageLink{
     width: 20%;
     padding-right: 10px;
-    }
-    .logoImage{
+   }
+   .StudyLogo{
+    width: 20%;
+  }
+   .logoImage{
       width: 20%;
       height: 100px;
       transition: all 0.2s ease-in-out;
     }
+    .experienceList{
+      width: 80%;
+      padding-left: 0px;
+      margin: auto;
+    }
+    .intro {
+      width: 80%;
+      margin: auto;
+    }
+    .skill-row {
+      width: 80%;
+    }
+    .education{
+      width: 80%;
+      margin: auto;
+    }
+    .experience{
+      width: 80%;
+      margin: auto;
+    }
+
+    
+.languagesCharpJava{
+  width: 30%;
+}
+
+.languagesHTMLCSSJavaScript{
+  width: 30%;
+}
+
+.languagesPython{
+  width: 30%;
+}
+.languagesIcon{
+  width: 10%;
+}
 }
 
 
-@media (max-width: 1117px) {
-  .intro {
-    width: 80%;
-    margin: auto;
-  }
-  .skill-row {
-    width: 80%;
-  }
-  .education{
-    width: 80%;
-    margin: auto;
-  }
-  .experience{
-    width: 80%;
-    margin: auto;
-  }
-}
 
 /* Footer Section */
 .footer-link {
@@ -574,7 +597,7 @@ padding-right: 10px;
   left: 40%;
 }
 
-/*--- rocket ---*/
+/*--- Rocket Animation---*/
 .rocket {
   position: absolute;
   top: 0;

@@ -1,8 +1,8 @@
 document.querySelector("#profilePic").addEventListener("mouseenter",()=>{
     document.querySelector("#profilePic").src = "images/NimaEmojiPhotoRound.png";
     document.querySelector(".helloText").innerHTML = "Welcome to my site! 😁";
-
 });
+
 document.querySelector("#profilePic").addEventListener("mouseleave",()=>{
     document.querySelector("#profilePic").src = "images/Nima Profile Pciture.png";
     document.querySelector(".helloText").innerHTML = "Hello!";
