@@ -25,12 +25,12 @@ body {
     the r stand for root
 */
 h1 {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 0 auto;
   /*font-family: "Sacramento", cursive;*/
   /*font-family: 'Share Tech Mono', monospace;*/
   font-family: "Press Start 2P", cursive;
-  font-size: 350%;
+  font-size: 360%;
   color: #66bfbf;
 }
 
@@ -90,6 +90,7 @@ hr {
 .softwareEngineer {
   text-decoration: underline;
 }
+
 
 .introImage {
   width: 24%;
