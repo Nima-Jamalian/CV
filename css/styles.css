@@ -170,9 +170,10 @@ hr {
   margin: auto 200px auto 200px;
 }*/
 
-#WebDevTitle {
-  padding-top: 100px;
+.skill-row{
+  padding-bottom: 50px;
 }
+
 
 #webDevPic {
   width: 200px;
