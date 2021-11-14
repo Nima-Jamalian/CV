@@ -1,6 +1,19 @@
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+//     // dark mode
+//     document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
+//     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
+// } 
+
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+//     // dark mode
+//     document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
+//     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
+// } 
+   
 document.querySelector("#profilePic").addEventListener("mouseenter",()=>{
     document.querySelector("#profilePic").src = "images/NimaEmojiPhotoRound.png";
     document.querySelector(".helloText").innerHTML = "Welcome to my site! 😁";
+
 });
 
 document.querySelector("#profilePic").addEventListener("mouseleave",()=>{

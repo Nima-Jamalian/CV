@@ -62,6 +62,40 @@ hr {
   margin: 5% auto 5% auto;
 }
 
+/* Bootstrap stuff */
+/* .navbar {
+  background-color: #0f044c;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.container-fluid{
+  padding: 0;
+}
+
+#navbarContainer {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+#NavBarLastItem {
+  padding-right: 0;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0 0 0;
+   ;
+  }
+} */
+
 .topContainer {
   /*background-color: #EAF6F6;*/
   background-color: #0f044c;
@@ -258,24 +292,6 @@ hr {
   opacity: 0.5;
 }
 
-@media (max-width: 1117px) {
-  .southBankLogo {
-    width: 4rem;
-  }
-
-  .UoLLogo {
-    width: 10rem;
-  }
-
-  .NokiaLogo {
-    width: 12rem;
-  }
-
-  .GoldsmithsLogo {
-    width: 12rem;
-  }
-}
-
 /*
 .web-development-description{
     padding-right: 30%;
@@ -413,72 +429,6 @@ hr {
   z-index: 1;
 }
 
-/* Mobile Size Optimization */
-@media (max-width: 1117px) {
-  .itemList {
-    display: block;
-    width: 80%;
-    margin: auto;
-  }
-  .imageLink {
-    width: 20%;
-    padding-right: 10px;
-  }
-  .StudyLogo {
-    width: 20%;
-  }
-  .logoImage {
-    width: 20%;
-    height: 100px;
-    transition: all 0.2s ease-in-out;
-  }
-  .experienceList {
-    width: 80%;
-    padding-left: 0px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-  .intro {
-    width: 80%;
-    margin: auto;
-  }
-  .skill-row {
-    width: 80%;
-  }
-  .education {
-    width: 80%;
-    margin: auto;
-  }
-  .experience {
-    width: 80%;
-    margin: auto;
-  }
-
-  .languagesCharpJava {
-    width: 30%;
-  }
-
-  .languagesHTMLCSSJavaScript {
-    width: 30%;
-  }
-
-  .languagesPython {
-    width: 30%;
-  }
-  .languagesIcon {
-    width: 10%;
-  }
-  #unityPic {
-    height: 30%;
-    width: 30%;
-    padding: 0;
-  }
-  #webDevPic {
-    height: 30%;
-    width: 30%;
-    padding: 0;
-  }
-}
 
 /* Footer Section */
 .footer-link {
@@ -691,5 +641,162 @@ hr {
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+ 
+/* Dark and Light Mode  */
+/* @media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: #40514e;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #191A19;
+    color: #929191;
+  }
+  .topContainer {
+    background-color: #141E61;
+    position: relative;
+    padding-top: 100px;
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #173737;
+    border-width: 10px;
+    width: 20%;
+    margin: 5% auto 5% auto;
+  }
+  .GoldsmithsLogo {
+    filter: invert(0%);
+  }
+  .bottom-container {
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    background-color: #141E61;
+  }
+  .BUTTON_TLB {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    width: 133px;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 24px;
+    background-color: #141E61;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 40px auto auto auto;
+    transition: all 0.2s ease-in-out;
+  }
+  .BUTTON_TLB:hover {
+    background-color: #0f1855;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+} */
+
+
+/* Mobile Size Optimization */
+@media (max-width: 1117px) {
+  .southBankLogo {
+    width: 4rem;
+  }
+
+  .UoLLogo {
+    width: 10rem;
+  }
+
+  .NokiaLogo {
+    width: 12rem;
+  }
+
+  .GoldsmithsLogo {
+    width: 12rem;
+  }
+
+  .itemList {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .imageLink {
+    width: 20%;
+    padding-right: 10px;
+  }
+  .StudyLogo {
+    width: 20%;
+  }
+  .logoImage {
+    width: 20%;
+    height: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  .experienceList {
+    width: 80%;
+    padding-left: 0px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .intro {
+    width: 80%;
+    margin: auto;
+  }
+  .skill-row {
+    width: 80%;
+  }
+  .education {
+    width: 80%;
+    margin: auto;
+  }
+  .experience {
+    width: 80%;
+    margin: auto;
+  }
+
+  .languagesCharpJava {
+    width: 30%;
+  }
+
+  .languagesHTMLCSSJavaScript {
+    width: 30%;
+  }
+
+  .languagesPython {
+    width: 30%;
+  }
+  .languagesIcon {
+    width: 10%;
+  }
+  #unityPic {
+    height: 30%;
+    width: 30%;
+    padding: 0;
+  }
+  #webDevPic {
+    height: 30%;
+    width: 30%;
+    padding: 0;
   }
 }
