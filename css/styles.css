@@ -102,6 +102,24 @@ hr {
   position: relative;
   padding-top: 100px;
 }
+.lightDarkMode{
+  top: 88%;
+  left:50.5%;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+}
+
+.lightDarkMode:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.fa-sun{
+  color: white;
+}
+
+.fa-moon{
+  color: #141E61;
+}
 
 .top-comment-image {
   position: absolute;
@@ -656,7 +674,7 @@ hr {
 
  
 /* Dark and Light Mode  */
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   body {
       background-color: white;
       color: #40514e;
@@ -670,55 +688,23 @@ hr {
   }
   .topContainer {
     background-color: #141E61;
-    position: relative;
-    padding-top: 100px;
   }
   hr {
-    border-style: none;
-    border-top-style: dotted;
     border-color: #173737;
-    border-width: 10px;
-    width: 20%;
-    margin: 5% auto 5% auto;
   }
   .GoldsmithsLogo {
     filter: invert(0%);
   }
   .bottom-container {
-    padding-top: 3%;
-    padding-bottom: 0.5%;
     background-color: #141E61;
   }
   .BUTTON_TLB {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    height: 0;
-    line-height: 0;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    width: 133px;
-    font-size: 19px;
-    font-weight: 300;
-    padding: 24px;
     background-color: #141E61;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin: 40px auto auto auto;
-    transition: all 0.2s ease-in-out;
   }
   .BUTTON_TLB:hover {
     background-color: #0f1855;
-    border: none;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    transform: scale(1.1);
   }
-} */
+}
 
 
 /* Mobile Size Optimization */

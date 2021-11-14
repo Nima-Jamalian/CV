@@ -1,15 +1,44 @@
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-//     // dark mode
-//     document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
-//     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
-// } 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // dark mode
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
+    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
+    DisplayDarkModeButton();
+} 
 
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-//     // dark mode
-//     document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
-//     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
-// } 
-   
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    // light mode
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
+    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
+    DisplayLightModeButton();
+} 
+
+document.querySelector(".lightDarkMode").addEventListener("click", ()=>{
+    var DarkLightMode = document.querySelector(".lightDarkMode");
+    if(DarkLightMode.classList.contains("fa-sun")){
+        //Activate Dark Mode
+        DarkLightMode.classList.remove("fa-sun");
+        DarkLightMode.classList.add("fa-moon");
+    } else if (DarkLightMode.classList.contains("fa-moon")){
+        //Activate Light Mode
+        DarkLightMode.classList.remove("fa-moon");
+        DarkLightMode.classList.add("fa-sun");
+        window.matchMedia('(prefers-color-scheme: light)');
+    }
+});
+
+
+function DisplayDarkModeButton(){
+    var DarkLightMode = document.querySelector(".lightDarkMode");
+    DarkLightMode.classList.remove("fa-sun");
+    DarkLightMode.classList.add("fa-moon");
+}
+
+function DisplayLightModeButton(){
+    var DarkLightMode = document.querySelector(".lightDarkMode");
+    DarkLightMode.classList.remove("fa-sun");
+    DarkLightMode.classList.add("fa-moon");
+}
+
 document.querySelector("#profilePic").addEventListener("mouseenter",()=>{
     document.querySelector("#profilePic").src = "images/NimaEmojiPhotoRound.png";
     document.querySelector(".helloText").innerHTML = "Welcome to my site! 😁";
