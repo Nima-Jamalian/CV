@@ -88,20 +88,6 @@ hr {
   color: #141E61;
 }
 
-.top-comment-image {
-  position: absolute;
-  width: 4%;
-  right: 22%;
-  top: 5%;
-}
-
-.button-comment-image {
-  position: absolute;
-  width: 5%;
-  left: 18%;
-  bottom: 45%;
-}
-
 .subtitle {
   font-weight: normal;
 }
