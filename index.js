@@ -1,30 +1,67 @@
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    // dark mode
-    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
-    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
-    DisplayDarkModeButton();
-} 
+//Automatically detect light mode and dark mode
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+//     // dark mode
+//     ActivateDarkMode();
+// } 
 
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-    // light mode
-    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
-    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
-    DisplayLightModeButton();
-} 
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+//     // light mode
+//     ActivateLightMode();
+// } 
 
+//Manually change between dark mode and light mode
 document.querySelector(".lightDarkMode").addEventListener("click", ()=>{
     var DarkLightMode = document.querySelector(".lightDarkMode");
     if(DarkLightMode.classList.contains("fa-sun")){
         //Activate Dark Mode
-        DarkLightMode.classList.remove("fa-sun");
-        DarkLightMode.classList.add("fa-moon");
+        ActivateDarkMode();
     } else if (DarkLightMode.classList.contains("fa-moon")){
         //Activate Light Mode
-        DarkLightMode.classList.remove("fa-moon");
-        DarkLightMode.classList.add("fa-sun");
-        window.matchMedia('(prefers-color-scheme: light)');
+        ActivateLightMode();
     }
 });
+
+function ActivateDarkMode(){
+    DisplayDarkModeButton();
+    DisplayDarkModeImages();
+    var body = document.querySelector("body");
+    var topContainer = document.querySelector(".topContainer");
+    var hr = document.querySelector("hr");
+    var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
+    var bottomContainer = document.querySelector(".bottom-container");
+    var buttonTLB = document.querySelector(".BUTTON_TLB");
+    body.classList.add("bodyDark");
+    topContainer.classList.add("topContainerDark");
+    hr.classList.add("hrDark");
+    GoldsmithsLogo.classList.add("GoldsmithsLogoDark");
+    bottomContainer.classList.add("bottom-containerDark")
+    buttonTLB.classList.add("BUTTON_TLBDark");    
+}
+
+function ActivateLightMode(){
+    DisplayLightModeButton();
+    DisplayLightModeImages();
+    var body = document.querySelector("body");
+    var topContainer = document.querySelector(".topContainer");
+    var hr = document.querySelector("hr");
+    var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
+    var bottomContainer = document.querySelector(".bottom-container");
+    var buttonTLB = document.querySelector(".BUTTON_TLB");
+    //Remove Dark Mode
+    body.classList.remove("bodyDark");
+    topContainer.classList.remove("topContainerDark");
+    hr.classList.remove("hrDark");
+    GoldsmithsLogo.classList.remove("GoldsmithsLogoDark");
+    bottomContainer.classList.remove("bottom-containerDark")
+    buttonTLB.classList.remove("BUTTON_TLBDark"); 
+    //Add Light Mode
+    body.classList.add("bodyLight");
+    topContainer.classList.add("topContainerLight");
+    hr.classList.add("hrLight");
+    GoldsmithsLogo.classList.add("GoldsmithsLogoLight");
+    bottomContainer.classList.add("bottom-containerLight")
+    buttonTLB.classList.add("BUTTON_TLBLight");   
+}
 
 
 function DisplayDarkModeButton(){
@@ -35,8 +72,18 @@ function DisplayDarkModeButton(){
 
 function DisplayLightModeButton(){
     var DarkLightMode = document.querySelector(".lightDarkMode");
-    DarkLightMode.classList.remove("fa-sun");
-    DarkLightMode.classList.add("fa-moon");
+    DarkLightMode.classList.remove("fa-moon");
+    DarkLightMode.classList.add("fa-sun");
+}
+
+function DisplayLightModeImages(){
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
+    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
+}
+
+function DisplayDarkModeImages(){
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
+    document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
 }
 
 document.querySelector("#profilePic").addEventListener("mouseenter",()=>{

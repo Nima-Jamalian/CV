@@ -666,46 +666,53 @@ hr {
 }
 
 
-
-
-
-
-
-
- 
-/* Dark and Light Mode  */
-@media (prefers-color-scheme: light) {
-  body {
-      background-color: white;
-      color: #40514e;
-  }
+/* Light Mode */
+.bodyLight {
+  background-color: white;
+  color: #40514e;
+}
+.topContainerLight {
+background-color: #0f044c;
+}
+.hrLight {
+border-color: #eaf6f6;
+}
+.GoldsmithsLogoLight {
+filter: invert(100%);
+}
+.bottom-containerLight {
+background-color: #0f044c;
+}
+.BUTTON_TLBLight {
+background-color: #141e61;
+}
+.BUTTON_TLBLight:hover {
+background-color: #0f044c;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #191A19;
-    color: #929191;
-  }
-  .topContainer {
-    background-color: #141E61;
-  }
-  hr {
-    border-color: #173737;
-  }
-  .GoldsmithsLogo {
-    filter: invert(0%);
-  }
-  .bottom-container {
-    background-color: #141E61;
-  }
-  .BUTTON_TLB {
-    background-color: #141E61;
-  }
-  .BUTTON_TLB:hover {
-    background-color: #0f1855;
-  }
+/* Dark Mode */
+.bodyDark {
+  background-color: #191A19;
+  color: #929191;
 }
-
+.topContainerDark {
+  background-color: #141E61;
+}
+.hrDark {
+  border-color: #173737;
+}
+.GoldsmithsLogoDark {
+  filter: invert(0%);
+}
+.bottom-containerDark {
+  background-color: #141E61;
+}
+.BUTTON_TLBDark {
+  background-color: #141E61;
+}
+.BUTTON_TLBDark:hover {
+  background-color: #0f1855;
+}
 
 /* Mobile Size Optimization */
 @media (max-width: 1117px) {
@@ -802,3 +809,55 @@ hr {
     padding: 0;
   }
 }
+
+
+/*Auto Dark and Light Mode  */
+/* @media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: #40514e;
+  }
+  .topContainer {
+    background-color: #0f044c;
+  }
+  hr {
+    border-color: #eaf6f6;
+  }
+  .GoldsmithsLogo {
+    filter: invert(100%);
+  }
+  .bottom-container {
+    background-color: #0f044c;
+  }
+  .BUTTON_TLB {
+    background-color: #141e61;
+  }
+  .BUTTON_TLB:hover {
+    background-color: #0f044c;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #191A19;
+    color: #929191;
+  }
+  .topContainer {
+    background-color: #141E61;
+  }
+  hr {
+    border-color: #173737;
+  }
+  .GoldsmithsLogo {
+    filter: invert(0%);
+  }
+  .bottom-container {
+    background-color: #141E61;
+  }
+  .BUTTON_TLB {
+    background-color: #141E61;
+  }
+  .BUTTON_TLB:hover {
+    background-color: #0f1855;
+  }
+} */
