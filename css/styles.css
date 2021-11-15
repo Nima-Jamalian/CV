@@ -664,6 +664,7 @@ background-color: #0f044c;
 }
 .topContainerDark {
   background-color: #141E61;
+box-shadow: 0 0.125rem 0.25rem 0 rgb(255 255 255 / 11%);
 }
 .hrDark {
   border-color: #173737;
@@ -673,6 +674,7 @@ background-color: #0f044c;
 }
 .bottom-containerDark {
   background-color: #141E61;
+box-shadow:0.125rem 0 0.25rem 0.09rem rgb(255 255 255 / 11%);
 }
 .BUTTON_TLBDark {
   background-color: #141E61;
