@@ -24,6 +24,7 @@ document.querySelector(".lightDarkMode").addEventListener("click", ()=>{
 function ActivateDarkMode(){
     DisplayDarkModeButton();
     DisplayDarkModeImages();
+    //Get UI Element
     var body = document.querySelector("body");
     var topContainer = document.querySelector(".topContainer");
     var hr = document.querySelectorAll("hr");
@@ -43,6 +44,7 @@ function ActivateDarkMode(){
 function ActivateLightMode(){
     DisplayLightModeButton();
     DisplayLightModeImages();
+    //Get UI Element
     var body = document.querySelector("body");
     var topContainer = document.querySelector(".topContainer");
     var hr = document.querySelectorAll("hr");
