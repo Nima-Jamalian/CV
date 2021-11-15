@@ -26,13 +26,15 @@ function ActivateDarkMode(){
     DisplayDarkModeImages();
     var body = document.querySelector("body");
     var topContainer = document.querySelector(".topContainer");
-    var hr = document.querySelector("hr");
+    var hr = document.querySelectorAll("hr");
     var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
     var bottomContainer = document.querySelector(".bottom-container");
     var buttonTLB = document.querySelector(".BUTTON_TLB");
     body.classList.add("bodyDark");
     topContainer.classList.add("topContainerDark");
-    hr.classList.add("hrDark");
+    hr.forEach(element => {
+        element.classList.add("hrDark")
+    });
     GoldsmithsLogo.classList.add("GoldsmithsLogoDark");
     bottomContainer.classList.add("bottom-containerDark")
     buttonTLB.classList.add("BUTTON_TLBDark");    
@@ -43,21 +45,25 @@ function ActivateLightMode(){
     DisplayLightModeImages();
     var body = document.querySelector("body");
     var topContainer = document.querySelector(".topContainer");
-    var hr = document.querySelector("hr");
+    var hr = document.querySelectorAll("hr");
     var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
     var bottomContainer = document.querySelector(".bottom-container");
     var buttonTLB = document.querySelector(".BUTTON_TLB");
     //Remove Dark Mode
     body.classList.remove("bodyDark");
     topContainer.classList.remove("topContainerDark");
-    hr.classList.remove("hrDark");
+    hr.forEach(element => {
+        element.classList.remove("hrDark")
+    });
     GoldsmithsLogo.classList.remove("GoldsmithsLogoDark");
     bottomContainer.classList.remove("bottom-containerDark")
     buttonTLB.classList.remove("BUTTON_TLBDark"); 
     //Add Light Mode
     body.classList.add("bodyLight");
     topContainer.classList.add("topContainerLight");
-    hr.classList.add("hrLight");
+    hr.forEach(element => {
+        element.classList.add("hrLight")
+    });
     GoldsmithsLogo.classList.add("GoldsmithsLogoLight");
     bottomContainer.classList.add("bottom-containerLight")
     buttonTLB.classList.add("BUTTON_TLBLight");   

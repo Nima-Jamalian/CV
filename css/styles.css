@@ -62,40 +62,6 @@ hr {
   margin: 5% auto 5% auto;
 }
 
-/* Bootstrap stuff */
-/* .navbar {
-  background-color: #0f044c;
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-.container-fluid{
-  padding: 0;
-}
-
-#navbarContainer {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-brand {
-  font-weight: 900;
-  font-family: "Montserrat", sans-serif;
-}
-
-.nav-item {
-  padding: 0 20px;
-}
-
-#NavBarLastItem {
-  padding-right: 0;
-}
-
-@media (max-width: 991px) {
-  .navbar {
-    padding: 0 0 0;
-   ;
-  }
-} */
-
 .topContainer {
   /*background-color: #EAF6F6;*/
   background-color: #0f044c;
