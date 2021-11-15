@@ -1,13 +1,13 @@
 //Automatically detect light mode and dark mode
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-//     // dark mode
-//     ActivateDarkMode();
-// } 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // dark mode
+    ActivateDarkMode();
+} 
 
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-//     // light mode
-//     ActivateLightMode();
-// } 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    // light mode
+    ActivateLightMode();
+} 
 
 //Manually change between dark mode and light mode
 document.querySelector(".lightDarkMode").addEventListener("click", ()=>{
