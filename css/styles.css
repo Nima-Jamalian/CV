@@ -410,6 +410,25 @@ hr {
 
 
 /* Footer Section */
+.imgNima {
+  width: 1.2rem;
+}
+
+.footerText {
+  font-family: "Press Start 2P", cursive;
+  color: #11999e;
+}
+
+a {
+  text-decoration: none;
+
+  color: #dbedf3;
+}
+
+a:hover {
+  color: #a2b0b4;
+}
+
 .footer-link {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
