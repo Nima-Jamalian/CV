@@ -51,7 +51,9 @@ h2 {
   font-size: 2.5rem;
   color: #66bfbf;
 }
-
+.smileEmojiImage{
+  width: 2rem;
+}
 .emoji{
   font-weight: 100;
 }
@@ -84,7 +86,7 @@ hr {
   top: 88%;
   left:50.5%;
   position: absolute;
-  transform: rotate3d(0,0.01 , 0, 30deg);
+  transform: rotate3d(0,0.01 , 0, 25deg);
   transition: all 0.2s ease-in-out;
 }
 
@@ -92,6 +94,7 @@ hr {
   transform: scale(1.1);
   opacity: 0.5;
 }
+
 .fa-sun{
   color: white;
 }
@@ -129,6 +132,8 @@ hr {
   transform: scale(1.1);
 }
 
+
+
 .intro {
   width: 30%;
   margin: auto;
@@ -138,6 +143,10 @@ hr {
   width: 50%;
   margin: 3.75rem auto 3.125rem auto;
   text-align: left;
+}
+
+.skillImage{
+  width: 4rem;
 }
 
 #unityPic {
