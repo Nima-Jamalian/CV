@@ -319,8 +319,8 @@ hr {
 }
 
 .bottom-container {
-  padding-top: 3%;
-  padding-bottom: 0.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   /*background-color: #66BFBF;*/
   background-color: #141e61;
 }
@@ -487,7 +487,6 @@ a:hover {
   font-size: 0.5rem;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Press Start 2P", cursive;
-  padding-bottom: 20px;
 }
 
 /*Rocket Animation*/
