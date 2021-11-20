@@ -55,6 +55,7 @@ h2 {
 .emoji{
   font-weight: 100;
 }
+
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
@@ -83,7 +84,7 @@ hr {
   top: 88%;
   left:50.5%;
   position: absolute;
-  transform: rotate3d(0,0.01 , 0, 35deg);
+  transform: rotate3d(0,0.01 , 0, 30deg);
   transition: all 0.2s ease-in-out;
 }
 
