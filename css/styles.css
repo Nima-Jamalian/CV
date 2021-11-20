@@ -51,9 +51,8 @@ h2 {
   font-size: 2.5rem;
   color: #66bfbf;
 }
-.smileEmojiImage{
-  width: 4%;
-}
+
+/* Chrome Update for Emoji in heading solution */
 .emoji{
   font-weight: 100;
 }
@@ -145,7 +144,7 @@ hr {
   text-align: left;
 }
 
-.skillImage{
+.HeadingImage{
   width: 5%;
 }
 
@@ -488,6 +487,7 @@ a:hover {
   font-size: 0.5rem;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Press Start 2P", cursive;
+  padding-bottom: 20px;
 }
 
 /*Rocket Animation*/
@@ -731,6 +731,10 @@ box-shadow:0.125rem 0 0.25rem 0.09rem rgb(255 255 255 / 11%);
   
   .fa-moon{
     font-size: 15px;
+  }
+
+  .HeadingImage{
+    width: 8%;
   }
 
   .southBankLogo {
