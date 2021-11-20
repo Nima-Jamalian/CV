@@ -160,7 +160,7 @@ hr {
 }
 /* My Education Section */
 .StudyLogo {
-  width: 10%;
+  width: 8%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -214,7 +214,7 @@ hr {
   font-weight: bold;
 }
 .southBankLogo {
-  width: 6%;
+  width: 4%;
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
   transition: all 0.2s ease-in-out;
@@ -227,7 +227,7 @@ hr {
 
 .UoLLogo {
   margin: 0 auto 0 auto;
-  width: 15%;
+  width: 10%;
   padding-bottom: 1px;
   padding-top: 10px;
   transition: all 0.2s ease-in-out;
@@ -242,7 +242,7 @@ hr {
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
   padding-top: 20px;
-  width: 20%;
+  width: 18%;
   /* min-width: 10%;
   max-width: 20%;*/
   transition: all 0.2s ease-in-out;
@@ -258,7 +258,7 @@ hr {
   padding-bottom: 10px;
   padding-top: 20px;
   filter: invert(1);
-  width: 20%;
+  width: 15%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -275,23 +275,23 @@ hr {
 .languagesCharpJava {
   display: block;
   margin: auto;
-  width: 20%;
+  width: 15%;
 }
 
 .languagesHTMLCSSJavaScript {
   display: block;
   margin: auto;
-  width: 20%;
+  width: 15%;
 }
 
 .languagesPython {
   display: block;
   margin: auto;
-  width: 20%;
+  width: 15%;
   padding: 40px;
 }
 .languagesIcon {
-  width: 6%;
+  width: 4%;
   padding: 0 10px;
 }
 
@@ -716,8 +716,8 @@ box-shadow:0.125rem 0 0.25rem 0.09rem rgb(255 255 255 / 11%);
     width: 20%;
   }
   .logoImage {
-    width: 20%;
-    height: 100px;
+    /* width: 20%; */
+    /* height: 100px; */
     transition: all 0.2s ease-in-out;
   }
   .experienceList {
