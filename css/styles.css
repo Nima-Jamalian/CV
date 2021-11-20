@@ -76,6 +76,7 @@ hr {
   top: 88%;
   left:50.5%;
   position: absolute;
+  transform: rotate3d(0,0.01 , 0, 35deg);
   transition: all 0.2s ease-in-out;
 }
 
@@ -101,7 +102,8 @@ hr {
 
 
 .introImage {
-  width: 24%;
+  /* width: 24%; */
+  width: 20rem;
 }
 
 .middle-container {
@@ -685,6 +687,14 @@ box-shadow:0.125rem 0 0.25rem 0.09rem rgb(255 255 255 / 11%);
 
   .introImage {
     width: 40%;
+  }
+
+  .fa-sun{
+    font-size: 15px;
+  }
+  
+  .fa-moon{
+    font-size: 15px;
   }
 
   .southBankLogo {
