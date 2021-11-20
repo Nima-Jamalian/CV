@@ -452,25 +452,25 @@ a:hover {
 }
 .footer-link-credit {
   color: #11999e;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.7rem;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.5rem;
   text-decoration: none;
 }
 .footer-link-credit:hover {
   color: #eaf6f6;
-  font-family: "Montserrat", sans-serif;
 }
 .copyright {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .credit {
   color: #eaf6f6;
-  font-size: 0.75rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Press Start 2P", cursive;
 }
 
 /*Rocket Animation*/
