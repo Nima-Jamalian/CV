@@ -7,6 +7,12 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+/* Load font from file */
+@font-face {
+  font-family: screenMatrix;
+  src: url(ScreenMatrix.ttf);
+}
+
 /*
     If you want the text to be dynamic and change based on the user browser settings
     we should use percentage. 100% = 16px
@@ -40,7 +46,8 @@ setting line height from top and button, you only input the number no need for p
    line-height: 2;
 */
 h2 {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: screenMatrix;
   font-size: 2.5rem;
   color: #66bfbf;
 }
