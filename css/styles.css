@@ -53,9 +53,9 @@ h2 {
 }
 
 /* Chrome Update for Emoji in heading solution */
-.emoji{
+/* .emoji{
   font-weight: 100;
-}
+} */
 
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -144,6 +144,9 @@ hr {
   text-align: left;
 }
 
+.smileImage{
+  width: 3rem;
+}
 .HeadingImage{
   width: 5rem;
 }
