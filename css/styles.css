@@ -438,23 +438,11 @@ hr {
 a {
   text-decoration: none;
 
-  color: #dbedf3;
+  color: #9e9e9e;
 }
 
 a:hover {
   color: #a2b0b4;
-}
-
-.footer-link {
-  color: #11999e;
-  font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  color: #eaf6f6;
-  font-family: "Montserrat", sans-serif;
 }
 
 .footer-Icon {
