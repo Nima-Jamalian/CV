@@ -85,12 +85,14 @@ function DisplayLightModeButton(){
 }
 
 function DisplayLightModeImages(){
-    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_LightMode.png";
+    document.querySelector(".UoLLogoC").src = "images/U_of_Londo_Coursera_LightMode.png";
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_LightMode.png";
     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_LightMode.png";
 }
 
 function DisplayDarkModeImages(){
-    document.querySelector(".UoLLogo").src = "images/U_of_Londo_Coursera_DarkMode.png";
+    document.querySelector(".UoLLogoC").src = "images/U_of_Londo_Coursera_DarkMode.png";
+    document.querySelector(".UoLLogo").src = "images/U_of_Londo_DarkMode.png";
     document.querySelector(".languagesHTMLCSSJavaScript").src = "images/WebDevToolsIcon_DarkMode.png";
 }
 
@@ -116,6 +118,12 @@ document.querySelector(".NokiaLogo").addEventListener("click", () =>{
     var NokiaTitle = document.querySelector(".NokiaTitle");
     var NokiaList = document.querySelector(".NokiaList");
     displayListInformation(NokiaTitle, NokiaList);
+});
+
+document.querySelector(".UoLLogoC").addEventListener("click", () =>{
+    var UoLTitle = document.querySelector(".UoLTitleC");
+    var UoLList = document.querySelector(".UoLListC");
+    displayListInformation(UoLTitle, UoLList);
 });
 
 document.querySelector(".UoLLogo").addEventListener("click", () =>{

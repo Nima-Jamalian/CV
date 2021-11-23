@@ -245,8 +245,7 @@ hr {
   transform: scale(1.1);
   opacity: 0.5;
 }
-
-.UoLLogo {
+.UoLLogo{
   margin: 0 auto 0 auto;
   width: 10%;
   padding-bottom: 1px;
@@ -254,7 +253,20 @@ hr {
   transition: all 0.2s ease-in-out;
 }
 
-.UoLLogo:hover {
+.UoLLogo:hover{
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.UoLLogoC {
+  margin: 0 auto 0 auto;
+  width: 10%;
+  padding-bottom: 1px;
+  padding-top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.UoLLogoC:hover {
   transform: scale(1.1);
   opacity: 0.5;
 }
@@ -731,7 +743,10 @@ box-shadow:0.125rem 0 0.25rem 0.09rem rgb(255 255 255 / 11%);
     width: 4rem;
   }
 
-  .UoLLogo {
+  .UoLLogo{
+    width: 10rem;
+  }
+  .UoLLogoC {
     width: 10rem;
   }
 
