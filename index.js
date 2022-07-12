@@ -29,6 +29,7 @@ function ActivateDarkMode(){
     var topContainer = document.querySelector(".topContainer");
     var hr = document.querySelectorAll("hr");
     var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
+    var UnrealEngineLogo= document.querySelector(".unrealEngineLogo")
     var bottomContainer = document.querySelector(".bottom-container");
     var buttonTLB = document.querySelector(".BUTTON_TLB");
     body.classList.add("bodyDark");
@@ -37,6 +38,7 @@ function ActivateDarkMode(){
         element.classList.add("hrDark")
     });
     GoldsmithsLogo.classList.add("GoldsmithsLogoDark");
+    UnrealEngineLogo.classList.add("UnrealLogoDark");
     bottomContainer.classList.add("bottom-containerDark")
     buttonTLB.classList.add("BUTTON_TLBDark");    
 }
@@ -49,6 +51,7 @@ function ActivateLightMode(){
     var topContainer = document.querySelector(".topContainer");
     var hr = document.querySelectorAll("hr");
     var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
+    var UnrealEngineLogo= document.querySelector(".unrealEngineLogo")
     var ARLogo = document.querySelector(".ARIcon");
     var bottomContainer = document.querySelector(".bottom-container");
     var buttonTLB = document.querySelector(".BUTTON_TLB");
@@ -59,6 +62,7 @@ function ActivateLightMode(){
         element.classList.remove("hrDark")
     });
     GoldsmithsLogo.classList.remove("GoldsmithsLogoDark");
+    UnrealEngineLogo.classList.remove("UnrealLogoDark");
     bottomContainer.classList.remove("bottom-containerDark")
     buttonTLB.classList.remove("BUTTON_TLBDark"); 
     //Add Light Mode
