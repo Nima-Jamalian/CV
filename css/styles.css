@@ -311,29 +311,29 @@ hr {
 .languagesCharpJava {
   display: block;
   margin: auto;
-  width: 15%;
+  width: 15rem;
 }
 
 .languagesHTMLCSSJavaScript {
   display: block;
   margin: auto;
-  width: 15%;
+  width: 15rem;
 }
 
 .languagesPython {
   display: block;
   margin: auto;
-  width: 15%;
+  width: 15rem;
   padding: 40px;
 }
 .languagesIcon {
-  width: 4%;
+  width: 4rem;
   padding: 0 10px;
 }
 
 .webToolsIcons{
-  width: 10%;
-  padding-right: 2%;
+  width: 10rem;
+  padding: 0 1%;
   margin: auto;
 }
 
