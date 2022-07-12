@@ -331,6 +331,10 @@ hr {
   padding: 0 10px;
 }
 
+.projectList{
+  padding-bottom: 15px;
+}
+
 .contact-message {
   width: 40%;
   margin: auto;
@@ -393,6 +397,7 @@ hr {
   padding-top: 0px;
   padding-bottom: 20px;
 }
+
 .logoImage {
   /* width: 100%;
   height: 100px; */
@@ -472,6 +477,11 @@ a:hover {
   transform: scale(1.1);
   opacity: 0.5;
 }
+
+.link{
+  color: #11999e;
+}
+
 .footer-link-credit {
   color: #11999e;
   /* font-family: "Montserrat", sans-serif; */
@@ -679,6 +689,11 @@ border-color: #eaf6f6;
 .GoldsmithsLogoLight {
 filter: invert(100%);
 }
+
+.ARIconLogoLight{
+  filter: invert(100%);
+}
+
 .bottom-containerLight {
 background-color: #0f044c;
 }

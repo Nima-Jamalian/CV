@@ -49,6 +49,7 @@ function ActivateLightMode(){
     var topContainer = document.querySelector(".topContainer");
     var hr = document.querySelectorAll("hr");
     var GoldsmithsLogo = document.querySelector(".GoldsmithsLogo");
+    var ARLogo = document.querySelector(".ARIcon");
     var bottomContainer = document.querySelector(".bottom-container");
     var buttonTLB = document.querySelector(".BUTTON_TLB");
     //Remove Dark Mode
@@ -67,6 +68,7 @@ function ActivateLightMode(){
         element.classList.add("hrLight")
     });
     GoldsmithsLogo.classList.add("GoldsmithsLogoLight");
+    ARLogo.classList.add("ARIconLogoLight");
     bottomContainer.classList.add("bottom-containerLight")
     buttonTLB.classList.add("BUTTON_TLBLight");   
 }
