@@ -148,7 +148,12 @@ document.querySelector(".PhDLogo").addEventListener("click", () =>{
     var PhDTitle = document.querySelector(".PhDTitle");
     var PhDList = document.querySelector(".PhDList");
     displayListInformation(PhDTitle, PhDList);
+});
 
+document.querySelector(".PhDLink").addEventListener("click", () =>{
+    var PhDTitle = document.querySelector(".PhDTitle");
+    var PhDList = document.querySelector(".PhDList");
+    displayListInformation(PhDTitle, PhDList);
 });
 
 document.querySelector(".MasterLogo").addEventListener("click", () =>{
@@ -157,7 +162,20 @@ document.querySelector(".MasterLogo").addEventListener("click", () =>{
     displayListInformation(MasterTitle, MasterList);
 });
 
+document.querySelector(".MasterLink").addEventListener("click", () =>{
+    var MasterTitle = document.querySelector(".MasterTitle");
+    var MasterList = document.querySelector(".MasterList");
+    displayListInformation(MasterTitle, MasterList);
+});
+
 document.querySelector(".BachelorLogo").addEventListener("click", () =>{
+    var BachelorTitle = document.querySelector(".BachelorTitle");
+    var BachelorList = document.querySelector(".BachelorList");
+    displayListInformation(BachelorTitle, BachelorList );
+});
+
+
+document.querySelector(".BachelorLink").addEventListener("click", () =>{
     var BachelorTitle = document.querySelector(".BachelorTitle");
     var BachelorList = document.querySelector(".BachelorList");
     displayListInformation(BachelorTitle, BachelorList );
