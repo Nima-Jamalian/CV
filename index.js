@@ -120,13 +120,31 @@ document.querySelector(".southBankLogo").addEventListener("click", () =>{
     displayListInformation(southBankTitle, southBankList);
 });
 
+document.querySelector(".southBankLink").addEventListener("click", () =>{
+    var southBankTitle = document.querySelector(".southBankTitle");
+    var southBankList = document.querySelector(".southBankList");
+    displayListInformation(southBankTitle, southBankList);
+});
+
 document.querySelector(".NokiaLogo").addEventListener("click", () =>{
     var NokiaTitle = document.querySelector(".NokiaTitle");
     var NokiaList = document.querySelector(".NokiaList");
     displayListInformation(NokiaTitle, NokiaList);
 });
 
+
+document.querySelector(".NokiaLink").addEventListener("click", () =>{
+    var NokiaTitle = document.querySelector(".NokiaTitle");
+    var NokiaList = document.querySelector(".NokiaList");
+    displayListInformation(NokiaTitle, NokiaList);
+});
+
 document.querySelector(".UoLLogoC").addEventListener("click", () =>{
+    var UoLTitle = document.querySelector(".UoLTitleC");
+    var UoLList = document.querySelector(".UoLListC");
+    displayListInformation(UoLTitle, UoLList);
+});
+document.querySelector(".UoLLogoCLink").addEventListener("click", () =>{
     var UoLTitle = document.querySelector(".UoLTitleC");
     var UoLList = document.querySelector(".UoLListC");
     displayListInformation(UoLTitle, UoLList);
@@ -138,7 +156,18 @@ document.querySelector(".UoLLogo").addEventListener("click", () =>{
     displayListInformation(UoLTitle, UoLList);
 });
 
+document.querySelector(".UoLLink").addEventListener("click", () =>{
+    var UoLTitle = document.querySelector(".UoLTitle");
+    var UoLList = document.querySelector(".UoLList");
+    displayListInformation(UoLTitle, UoLList);
+});
+
 document.querySelector(".GoldsmithsLogo").addEventListener("click", () =>{
+    var GoldsmithsTitle = document.querySelector(".GoldsmithsTitle");
+    var GoldsmithsList = document.querySelector(".GoldsmithsList");
+    displayListInformation(GoldsmithsTitle, GoldsmithsList);
+});
+document.querySelector(".GoldsmithsLink").addEventListener("click", () =>{
     var GoldsmithsTitle = document.querySelector(".GoldsmithsTitle");
     var GoldsmithsList = document.querySelector(".GoldsmithsList");
     displayListInformation(GoldsmithsTitle, GoldsmithsList);
