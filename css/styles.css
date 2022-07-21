@@ -311,7 +311,9 @@ hr {
 .languagesCharpJava {
   display: block;
   margin: auto;
-  width: 15rem;
+  padding-left: 26px;
+  width: 25rem;
+  padding-bottom: 20px;
 }
 
 .languagesHTMLCSSJavaScript {
@@ -335,6 +337,13 @@ hr {
   width: 10rem;
   padding: 0 1%;
   margin: auto;
+}
+
+.devToolsIcon{
+  width:100px;
+  height:100px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .projectList{
