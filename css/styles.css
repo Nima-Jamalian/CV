@@ -355,6 +355,10 @@ hr {
   margin: auto;
 }
 
+.publicationImage{
+  width:8rem;
+}
+
 .bottom-container {
   padding-top: 5%;
   padding-bottom: 5%;
