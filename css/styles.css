@@ -77,6 +77,10 @@ hr {
   margin: 5% auto 5% auto;
 }
 
+.boldFont{
+  font-weight: bolder;
+}
+
 .topContainer {
   /*background-color: #EAF6F6;*/
   background-color: #0f044c;
